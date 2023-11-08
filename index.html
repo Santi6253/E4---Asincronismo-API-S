@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>E4: Asincronismo + API'S</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="container">
+        <div class="search-box">
+          <h1 class="search-title">Buscar Pokemón</h1>
+          <form id="form">
+            <button type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <input
+              id="input"
+              type="text"
+              name="id"
+              autocomplete="off"
+              placeholder="Buscar Pokemón"
+              class="search-input"
+            />
+          </form>
+        </div>
+        <p class="search-msg">Ingrese un ID de un Pokemón...</p>
+        <section class="card-container"></section>
+      </div>
+    </main>
+    <footer>
+      <p>E4: Asincronismo + API'S</p>
+    </footer>
+    <script src="./assets/index.js"></script>
+  </body>
+</html>
